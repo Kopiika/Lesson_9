@@ -1,0 +1,195 @@
+@import "null.css";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+@font-face {
+	font-family: 'Star Jedi Hollow';
+	src: url('../fonts/StarJediHollow.woff2') format('woff2'),
+		 url('../fonts/StarJediHollow.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Star Jedi';
+	src: url('../fonts/StarJedi.woff2') format('woff2'),
+		 url('../fonts/StarJedi.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	background: url(../img/buckground.jpg) 0 0/ cover no-repeat;
+	
+}
+
+.game{
+	max-width: 900px;
+	min-height: 100%;
+	margin: 0 auto;
+	font-size: 0;
+}
+
+/* для стрелки */
+*{
+	font-family:'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 40px;
+	color: white;
+}
+
+
+
+.tittle, .link{
+	font-family: 'Star Jedi', serif;
+	text-align: center;
+	font-size: 50px;
+	letter-spacing: 1px;
+	margin-bottom: 60px;
+	padding-top: 30px;
+	color: rgb(255, 238, 0);
+}
+
+.img-start{
+	max-width: 250px;
+}
+
+
+.line-1{
+	text-align: center;
+	margin-left: 100px;
+	width: 100px;
+	height: 45px;
+	background-color: rgb(93, 57, 160);
+	
+}
+
+.line-2{
+	margin-left: 100px;
+	width: 500px;
+	height: 70px;
+	background-color: rgb(82, 193, 226);
+	visibility: hidden;
+}
+
+.line-3{
+	margin-left: 550px;
+	width: 50px;
+	height: 50px;
+	background-color: rgb(82, 193, 226);
+	visibility: hidden;
+}
+
+.line-1:hover +.line-2,.line-2:hover{
+	visibility: visible;
+}
+
+.line-2:hover +.line-3,.line-3:hover{
+	visibility: visible;
+}
+
+.line-4{
+	margin-left: 550px;
+	width: 300px;
+	height: 50px;
+	background-color: rgb(93, 57, 160);
+	visibility: hidden;
+}
+
+.line-3:hover +.line-4,.line-4:hover{
+	visibility: visible;
+}
+
+.line-5{
+	margin-left: 800px;
+	width: 50px;
+	height: 50px;
+	background-color: rgb(93, 57, 160);
+	visibility: hidden;
+}
+
+.line-4:hover +.line-5,.line-5:hover{
+	visibility: visible;
+}
+
+.line-6{
+	width: 600px;
+	height: 30px;
+	background-color: rgb(82, 193, 226);
+	margin-left: 250px;
+	visibility: hidden;
+}
+
+.line-5:hover +.line-6,.line-6:hover{
+	visibility: visible;
+}
+
+.line-7{
+	width: 30px;
+	height: 100px;
+	background-color: rgb(82, 193, 226);
+	margin-left: 250px;
+	visibility: hidden;
+}
+
+.line-6:hover +.line-7,.line-7:hover{
+	visibility: visible;
+}
+
+.line-8{
+	width: 300px;
+	height: 20px;
+	background-color: rgb(93, 57, 160);
+	margin-left: 250px;
+	visibility: hidden;
+}
+
+.line-7:hover +.line-8,.line-8:hover{
+	visibility: visible;
+}
+
+.line-9{
+	width: 15px;
+	height: 150px;
+	background-color: rgb(82, 193, 226);
+	margin-left: 535px;
+	visibility: hidden;
+}
+
+.line-8:hover +.line-9,.line-9:hover{
+	visibility: visible;
+}
+
+.line-10{
+	width: 500px;
+	height: 20px;
+	background-color:rgb(255, 238, 0);
+	margin: 0 auto;
+	visibility: hidden;
+}
+
+.line-9:hover +.line-10,.line-10:hover{
+	visibility: visible;
+}
+
+.line-11{
+	width: 500px;
+	height: 350px;
+	margin: 0 auto;
+	text-align: center;
+	visibility: hidden;
+	background: url("../img/wookiee.jpg") center center / 500px auto no-repeat;
+}
+
+
+.line-10:hover +.line-11, .line-11:hover {
+	visibility: visible;
+	
+} 
+
+
